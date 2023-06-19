@@ -22,17 +22,6 @@
     <core-loading [hideUntil]="loaded">
         <ion-list class="core-sitelist">
             <ion-card *ngIf="accountsList.currentSite">
-                <ion-item-divider sticky="true" class="core-sitelist-sitename">
-                    <ion-label>
-                        <h2>
-                            <core-format-text [text]="accountsList.currentSite.siteName" clean="true"
-                                [siteId]="accountsList.currentSite.id"></core-format-text>
-                        </h2>
-                        <p><a [href]="accountsList.currentSite.siteUrl" core-link autoLogin="yes">{{
-                                accountsList.currentSite.siteUrlWithoutProtocol }}</a>
-                        </p>
-                    </ion-label>
-                </ion-item-divider>
 
                 <ion-item detail="false">
                     <ion-avatar slot="start">
@@ -50,26 +39,11 @@
             </ion-card>
 
             <ion-card *ngFor="let sites of accountsList.otherSites">
-                <ion-item-divider sticky="true" *ngIf="sites[0]" class="core-sitelist-sitename">
-                    <ion-label>
-                        <h2>
-                            <core-format-text [text]="sites[0].siteName" clean="true" [siteId]="sites[0].id"></core-format-text>
-                        </h2>
-                        <p><a [href]="sites[0].siteUrl" core-link autoLogin="no">{{ sites[0].siteUrlWithoutProtocol }}</a></p>
-                    </ion-label>
-                </ion-item-divider>
-
                 <ng-container *ngTemplateOutlet="siteList; context: {sites: sites}"></ng-container>
             </ion-card>
 
         </ion-list>
     </core-loading>
-    <ion-fab slot="fixed" core-fab vertical="bottom" horizontal="end">
-        <ion-fab-button (click)="add($event)" [attr.aria-label]="'core.login.add' | translate">
-            <ion-icon name="fas-plus" aria-hidden="true"></ion-icon>
-            <span class="sr-only">{{ 'core.login.add' | translate }}</span>
-        </ion-fab-button>
-    </ion-fab>
 </ion-content>
 
 <!-- Template to render a list of sites. -->
@@ -87,9 +61,9 @@
             <span class="sr-only">{{ 'core.login.sitebadgedescription' | translate:{ count: site.badge }
                 }}</span>
         </ion-badge>
-        <ion-button *ngIf="showDelete" slot="end" fill="clear" color="danger" (click)="deleteSite($event, site)"
+        <ion-button slot="end" fill="clear" color="danger" (click)="deleteSite($event, site)"
             [attr.aria-label]="'core.login.removeaccount' | translate" [@coreSlideInOut]="'fromRight'">
-            <ion-icon name="fas-trash" slot="icon-only" aria-hidden="true"></ion-icon>
+            <ion-icon name="fas-right-from-bracket" slot="icon-only" aria-hidden="true"></ion-icon>
         </ion-button>
     </ion-item>
 </ng-template>

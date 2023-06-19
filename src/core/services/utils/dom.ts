@@ -1275,7 +1275,7 @@ export class CoreDomUtilsProvider {
                     },
                 },
                 {
-                    text: Translate.instant('core.delete'),
+                    text: Translate.instant('core.logouti'),
                     role: 'destructive',
                     handler: () => {
                         resolve();

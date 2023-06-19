@@ -1,8 +1,8 @@
 {
-    "app_id": "com.moodle.moodlemobile",
+    "app_id": "id.co.dataquest.alfalearning",
     "appname": "Moodle Mobile",
-    "versioncode": 42000,
-    "versionname": "4.2.0",
+    "versioncode": 42200,
+    "versionname": "4.2.2",
     "cache_update_frequency_usually": 420000,
     "cache_update_frequency_often": 1200000,
     "cache_update_frequency_sometimes": 3600000,
@@ -85,7 +85,7 @@
         "high": 120
     },
     "customurlscheme": "moodlemobile",
-    "sites": [],
+    "sites": [{"url": "https://beelajar.edukati.com/"}],
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": false,
@@ -99,7 +99,7 @@
     "forceLoginLogo": false,
     "ioswebviewscheme": "moodleappfs",
     "appstores": {
-        "android": "com.moodle.moodlemobile",
+        "android": "id.co.dataquest.alfalearning",
         "ios": "id633359593"
     },
     "wsrequestqueuelimit": 10,
