@@ -79,7 +79,7 @@ export class CoreLoginSitesPage implements OnInit {
         siteName = await CoreFilter.formatText(siteName, { clean: true, singleLine: true, filter: false }, [], site.id);
 
         try {
-            await CoreDomUtils.showDeleteConfirm('core.login.confirmdeletesite', { sitename: siteName });
+            await CoreDomUtils.showDeleteConfirm('core.login.confirmlogout', { sitename: siteName });
         } catch (error) {
             // User cancelled, stop.
             return;

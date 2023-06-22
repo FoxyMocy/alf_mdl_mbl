@@ -1,5 +1,5 @@
 {
-    "app_id": "com.moodle.moodlemobile",
+    "app_id": "id.co.dataquest.alfalearning",
     "appname": "Moodle Mobile",
     "versioncode": 43000,
     "versionname": "4.3.0",
@@ -86,21 +86,21 @@
         "high": 120
     },
     "customurlscheme": "moodlemobile",
-    "sites": [],
+    "sites": [{"url": "https://alfalearning.sat.co.id/"}],
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": false,
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
     "privacypolicy": "https://moodle.net/moodle-app-privacy/",
-    "notificoncolor": "#f98012",
+    "notificoncolor": "#ad131d",
     "enableanalytics": false,
     "enableonboarding": true,
     "forceColorScheme": "",
     "forceLoginLogo": false,
     "ioswebviewscheme": "moodleappfs",
     "appstores": {
-        "android": "com.moodle.moodlemobile",
+        "android": "id.co.dataquest.alfalearning",
         "ios": "id633359593"
     },
     "wsrequestqueuelimit": 10,

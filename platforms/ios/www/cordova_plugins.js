@@ -1,6 +1,14 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
   module.exports = [
     {
+      "id": "cordova-clipboard.Clipboard",
+      "file": "plugins/cordova-clipboard/www/clipboard.js",
+      "pluginId": "cordova-clipboard",
+      "clobbers": [
+        "cordova.plugins.clipboard"
+      ]
+    },
+    {
       "id": "cordova-plugin-file.DirectoryEntry",
       "file": "plugins/cordova-plugin-file/www/DirectoryEntry.js",
       "pluginId": "cordova-plugin-file",
@@ -247,51 +255,11 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
-      "id": "cordova-clipboard.Clipboard",
-      "file": "plugins/cordova-clipboard/www/clipboard.js",
-      "pluginId": "cordova-clipboard",
-      "clobbers": [
-        "cordova.plugins.clipboard"
-      ]
-    },
-    {
       "id": "cordova-plugin-badge.Badge",
       "file": "plugins/cordova-plugin-badge/www/badge.js",
       "pluginId": "cordova-plugin-badge",
       "clobbers": [
         "cordova.plugins.notification.badge"
-      ]
-    },
-    {
-      "id": "@moodlehq/cordova-plugin-camera.Camera",
-      "file": "plugins/@moodlehq/cordova-plugin-camera/www/CameraConstants.js",
-      "pluginId": "@moodlehq/cordova-plugin-camera",
-      "clobbers": [
-        "Camera"
-      ]
-    },
-    {
-      "id": "@moodlehq/cordova-plugin-camera.CameraPopoverOptions",
-      "file": "plugins/@moodlehq/cordova-plugin-camera/www/CameraPopoverOptions.js",
-      "pluginId": "@moodlehq/cordova-plugin-camera",
-      "clobbers": [
-        "CameraPopoverOptions"
-      ]
-    },
-    {
-      "id": "@moodlehq/cordova-plugin-camera.camera",
-      "file": "plugins/@moodlehq/cordova-plugin-camera/www/Camera.js",
-      "pluginId": "@moodlehq/cordova-plugin-camera",
-      "clobbers": [
-        "navigator.camera"
-      ]
-    },
-    {
-      "id": "@moodlehq/cordova-plugin-camera.CameraPopoverHandle",
-      "file": "plugins/@moodlehq/cordova-plugin-camera/www/ios/CameraPopoverHandle.js",
-      "pluginId": "@moodlehq/cordova-plugin-camera",
-      "clobbers": [
-        "CameraPopoverHandle"
       ]
     },
     {
@@ -359,43 +327,11 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
-      "id": "@moodlehq/cordova-plugin-inappbrowser.inappbrowser",
-      "file": "plugins/@moodlehq/cordova-plugin-inappbrowser/www/inappbrowser.js",
-      "pluginId": "@moodlehq/cordova-plugin-inappbrowser",
-      "clobbers": [
-        "cordova.InAppBrowser.open"
-      ]
-    },
-    {
       "id": "cordova-plugin-ionic-keyboard.keyboard",
       "file": "plugins/cordova-plugin-ionic-keyboard/www/ios/keyboard.js",
       "pluginId": "cordova-plugin-ionic-keyboard",
       "clobbers": [
         "window.Keyboard"
-      ]
-    },
-    {
-      "id": "@moodlehq/cordova-plugin-ionic-webview.IonicWebView",
-      "file": "plugins/@moodlehq/cordova-plugin-ionic-webview/src/www/util.js",
-      "pluginId": "@moodlehq/cordova-plugin-ionic-webview",
-      "clobbers": [
-        "Ionic.WebView"
-      ]
-    },
-    {
-      "id": "@moodlehq/cordova-plugin-ionic-webview.ios-wkwebview-exec",
-      "file": "plugins/@moodlehq/cordova-plugin-ionic-webview/src/www/ios/ios-wkwebview-exec.js",
-      "pluginId": "@moodlehq/cordova-plugin-ionic-webview",
-      "clobbers": [
-        "cordova.exec"
-      ]
-    },
-    {
-      "id": "@moodlehq/cordova-plugin-local-notification.LocalNotification",
-      "file": "plugins/@moodlehq/cordova-plugin-local-notification/www/local-notification.js",
-      "pluginId": "@moodlehq/cordova-plugin-local-notification",
-      "clobbers": [
-        "cordova.plugins.notification.local"
       ]
     },
     {
@@ -477,11 +413,11 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
-      "id": "@moodlehq/cordova-plugin-qrscanner.QRScanner",
-      "file": "plugins/@moodlehq/cordova-plugin-qrscanner/www/www.min.js",
-      "pluginId": "@moodlehq/cordova-plugin-qrscanner",
+      "id": "cordova-plugin-screen-orientation.screenorientation",
+      "file": "plugins/cordova-plugin-screen-orientation/www/screenorientation.js",
+      "pluginId": "cordova-plugin-screen-orientation",
       "clobbers": [
-        "QRScanner"
+        "cordova.plugins.screenorientation"
       ]
     },
     {
@@ -509,35 +445,11 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
-      "id": "@moodlehq/cordova-plugin-zip.Zip",
-      "file": "plugins/@moodlehq/cordova-plugin-zip/zip.js",
-      "pluginId": "@moodlehq/cordova-plugin-zip",
-      "clobbers": [
-        "zip"
-      ]
-    },
-    {
       "id": "cordova-sqlite-storage.SQLitePlugin",
       "file": "plugins/cordova-sqlite-storage/www/SQLitePlugin.js",
       "pluginId": "cordova-sqlite-storage",
       "clobbers": [
         "SQLitePlugin"
-      ]
-    },
-    {
-      "id": "@moodlehq/phonegap-plugin-push.PushNotification",
-      "file": "plugins/@moodlehq/phonegap-plugin-push/www/push.js",
-      "pluginId": "@moodlehq/phonegap-plugin-push",
-      "clobbers": [
-        "PushNotification"
-      ]
-    },
-    {
-      "id": "@moodlehq/cordova-plugin-intent.IntentShim",
-      "file": "plugins/@moodlehq/cordova-plugin-intent/www/IntentShim.js",
-      "pluginId": "@moodlehq/cordova-plugin-intent",
-      "clobbers": [
-        "intentShim"
       ]
     },
     {
@@ -629,6 +541,44 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
+      "id": "es6-promise-plugin.Promise",
+      "file": "plugins/es6-promise-plugin/www/promise.js",
+      "pluginId": "es6-promise-plugin",
+      "runs": true
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-camera.Camera",
+      "file": "plugins/@moodlehq/cordova-plugin-camera/www/CameraConstants.js",
+      "pluginId": "@moodlehq/cordova-plugin-camera",
+      "clobbers": [
+        "Camera"
+      ]
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-camera.CameraPopoverOptions",
+      "file": "plugins/@moodlehq/cordova-plugin-camera/www/CameraPopoverOptions.js",
+      "pluginId": "@moodlehq/cordova-plugin-camera",
+      "clobbers": [
+        "CameraPopoverOptions"
+      ]
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-camera.camera",
+      "file": "plugins/@moodlehq/cordova-plugin-camera/www/Camera.js",
+      "pluginId": "@moodlehq/cordova-plugin-camera",
+      "clobbers": [
+        "navigator.camera"
+      ]
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-camera.CameraPopoverHandle",
+      "file": "plugins/@moodlehq/cordova-plugin-camera/www/ios/CameraPopoverHandle.js",
+      "pluginId": "@moodlehq/cordova-plugin-camera",
+      "clobbers": [
+        "CameraPopoverHandle"
+      ]
+    },
+    {
       "id": "@moodlehq/cordova-plugin-file-transfer.FileTransferError",
       "file": "plugins/@moodlehq/cordova-plugin-file-transfer/www/FileTransferError.js",
       "pluginId": "@moodlehq/cordova-plugin-file-transfer",
@@ -645,45 +595,102 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
-      "id": "cordova-plugin-screen-orientation.screenorientation",
-      "file": "plugins/cordova-plugin-screen-orientation/www/screenorientation.js",
-      "pluginId": "cordova-plugin-screen-orientation",
+      "id": "@moodlehq/cordova-plugin-inappbrowser.inappbrowser",
+      "file": "plugins/@moodlehq/cordova-plugin-inappbrowser/www/inappbrowser.js",
+      "pluginId": "@moodlehq/cordova-plugin-inappbrowser",
       "clobbers": [
-        "cordova.plugins.screenorientation"
+        "cordova.InAppBrowser.open"
+      ]
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-intent.IntentShim",
+      "file": "plugins/@moodlehq/cordova-plugin-intent/www/IntentShim.js",
+      "pluginId": "@moodlehq/cordova-plugin-intent",
+      "clobbers": [
+        "intentShim"
+      ]
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-ionic-webview.IonicWebView",
+      "file": "plugins/@moodlehq/cordova-plugin-ionic-webview/src/www/util.js",
+      "pluginId": "@moodlehq/cordova-plugin-ionic-webview",
+      "clobbers": [
+        "Ionic.WebView"
+      ]
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-ionic-webview.ios-wkwebview-exec",
+      "file": "plugins/@moodlehq/cordova-plugin-ionic-webview/src/www/ios/ios-wkwebview-exec.js",
+      "pluginId": "@moodlehq/cordova-plugin-ionic-webview",
+      "clobbers": [
+        "cordova.exec"
+      ]
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-local-notification.LocalNotification",
+      "file": "plugins/@moodlehq/cordova-plugin-local-notification/www/local-notification.js",
+      "pluginId": "@moodlehq/cordova-plugin-local-notification",
+      "clobbers": [
+        "cordova.plugins.notification.local"
+      ]
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-qrscanner.QRScanner",
+      "file": "plugins/@moodlehq/cordova-plugin-qrscanner/www/www.min.js",
+      "pluginId": "@moodlehq/cordova-plugin-qrscanner",
+      "clobbers": [
+        "QRScanner"
+      ]
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-zip.Zip",
+      "file": "plugins/@moodlehq/cordova-plugin-zip/zip.js",
+      "pluginId": "@moodlehq/cordova-plugin-zip",
+      "clobbers": [
+        "zip"
+      ]
+    },
+    {
+      "id": "@moodlehq/phonegap-plugin-push.PushNotification",
+      "file": "plugins/@moodlehq/phonegap-plugin-push/www/push.js",
+      "pluginId": "@moodlehq/phonegap-plugin-push",
+      "clobbers": [
+        "PushNotification"
       ]
     }
   ];
   module.exports.metadata = {
+    "cordova-clipboard": "1.3.0",
+    "cordova-plugin-add-swift-support": "2.0.2",
     "cordova-plugin-file": "6.0.2",
     "cordova-plugin-advanced-http": "3.3.1",
-    "cordova-clipboard": "1.3.0",
+    "cordova-plugin-androidx-adapter": "1.1.3",
     "cordova-plugin-badge": "0.8.9",
-    "@moodlehq/cordova-plugin-camera": "6.0.0-moodle.1",
-    "cordova-plugin-add-swift-support": "2.0.2",
     "cordova-plugin-chooser": "1.3.1",
     "cordova-plugin-customurlscheme": "5.0.2",
     "cordova-plugin-device": "2.1.0",
     "cordova-plugin-file-opener2": "4.0.0",
     "cordova-plugin-geolocation": "4.1.0",
-    "@moodlehq/cordova-plugin-inappbrowser": "5.0.0-moodle.3",
     "cordova-plugin-ionic-keyboard": "2.2.0",
-    "@moodlehq/cordova-plugin-ionic-webview": "5.0.0-moodle.1",
-    "@moodlehq/cordova-plugin-local-notification": "0.9.0-moodle.11",
     "cordova-plugin-media-capture": "3.0.3",
     "cordova-plugin-network-information": "3.0.0",
-    "@moodlehq/cordova-plugin-qrscanner": "3.0.1-moodle.5",
+    "cordova-plugin-prevent-override": "1.0.1",
+    "cordova-plugin-screen-orientation": "3.0.3",
     "cordova-plugin-statusbar": "3.0.0",
     "cordova-plugin-wkuserscript": "1.0.1",
     "cordova-plugin-wkwebview-cookies": "1.0.1",
-    "@moodlehq/cordova-plugin-zip": "3.1.0-moodle.1",
     "cordova-sqlite-storage": "6.1.0",
-    "@moodlehq/phonegap-plugin-push": "4.0.0-moodle.6",
-    "@moodlehq/cordova-plugin-intent": "2.2.0-moodle.2",
-    "nl.kingsquare.cordova.background-audio": "1.0.1",
     "cordova.plugins.diagnostic": "7.1.2",
+    "es6-promise-plugin": "4.2.2",
+    "nl.kingsquare.cordova.background-audio": "1.0.1",
+    "@moodlehq/cordova-plugin-camera": "6.0.0-moodle.1",
     "@moodlehq/cordova-plugin-file-transfer": "1.7.1-moodle.5",
-    "cordova-plugin-prevent-override": "1.0.1",
-    "cordova-plugin-androidx-adapter": "1.1.3",
-    "cordova-plugin-screen-orientation": "3.0.3"
+    "@moodlehq/cordova-plugin-inappbrowser": "5.0.0-moodle.3",
+    "@moodlehq/cordova-plugin-intent": "2.2.0-moodle.2",
+    "@moodlehq/cordova-plugin-ionic-webview": "5.0.0-moodle.1",
+    "@moodlehq/cordova-plugin-local-notification": "0.9.0-moodle.11",
+    "@moodlehq/cordova-plugin-qrscanner": "3.0.1-moodle.5",
+    "@moodlehq/cordova-plugin-zip": "3.1.0-moodle.1",
+    "@moodlehq/phonegap-plugin-push": "4.0.0-moodle.6"
   };
 });

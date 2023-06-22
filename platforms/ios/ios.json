@@ -9,10 +9,6 @@
         "parents": {
           "NSLocationWhenInUseUsageDescription": [
             {
-              "xml": "<string>This app requires access to your location when the screen is on and the app is displayed.</string>",
-              "count": 1
-            },
-            {
               "xml": "<string>We need your location so you can attach it as part of your submissions.</string>",
               "count": 1,
               "mode": "merge",
@@ -20,10 +16,6 @@
             }
           ],
           "NSLocationAlwaysUsageDescription": [
-            {
-              "xml": "<string>This app requires constant access to your location in order to track your position, even when the screen is off or the app is in the background.</string>",
-              "count": 1
-            },
             {
               "xml": "<string>We need your location so you can attach it as part of your submissions.</string>",
               "count": 1,
@@ -33,25 +25,13 @@
           ],
           "NSCameraUsageDescription": [
             {
-              "xml": "<string>The camera is used to scan QR codes.</string>",
-              "count": 1
-            },
-            {
-              "xml": "<string>This app requires camera access to function properly.</string>",
-              "count": 1
-            },
-            {
               "xml": "<string>We need camera access to take pictures so you can attach them as part of your submissions.</string>",
-              "count": 1,
+              "count": 3,
               "mode": "merge",
               "id": "config.xml"
             }
           ],
           "NSMicrophoneUsageDescription": [
-            {
-              "xml": "<string>This app requires microphone access to function properly.</string>",
-              "count": 1
-            },
             {
               "xml": "<string>We need microphone access to record sounds so you can attach them as part of your submissions.</string>",
               "count": 1,
@@ -60,10 +40,6 @@
             }
           ],
           "NSPhotoLibraryUsageDescription": [
-            {
-              "xml": "<string>This app requires photo library access to function properly.</string>",
-              "count": 1
-            },
             {
               "xml": "<string>We need photo library access to get pictures from there so you can attach them as part of your submissions.</string>",
               "count": 1,
@@ -98,58 +74,48 @@
           "FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED": [
             {
               "xml": "<string>YES</string>",
-              "count": 2
+              "count": 4
             }
           ],
           "UISupportedInterfaceOrientations": [
             {
               "xml": "<array><string>UIInterfaceOrientationPortrait</string><string>UIInterfaceOrientationPortraitUpsideDown</string><string>UIInterfaceOrientationLandscapeLeft</string><string>UIInterfaceOrientationLandscapeRight</string></array>",
-              "count": 2
+              "count": 4
             }
           ],
           "UISupportedInterfaceOrientations~ipad": [
             {
               "xml": "<array><string>UIInterfaceOrientationPortrait</string><string>UIInterfaceOrientationPortraitUpsideDown</string><string>UIInterfaceOrientationLandscapeLeft</string><string>UIInterfaceOrientationLandscapeRight</string></array>",
-              "count": 2
+              "count": 4
             }
           ],
           "UIRequiresFullScreen": [
             {
               "xml": "<false />",
-              "count": 2
+              "count": 4
             }
           ],
           "NSCrossWebsiteTrackingUsageDescription": [
             {
               "xml": "<string>This app needs third party cookies to correctly render embedded content from the Moodle site.</string>",
-              "count": 2
+              "count": 4
             }
           ],
           "ITSAppUsesNonExemptEncryption": [
             {
               "xml": "<false />",
-              "count": 2
+              "count": 4
             }
           ],
           "CFBundleDocumentTypes": [
             {
               "xml": "<array><dict><key>CFBundleTypeName</key><string>Unknown File</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.calendar-event</string><string>public.database</string><string>public.executable</string><string>public.data</string><string>public.content </string><string>public.item</string></array></dict><dict><key>CFBundleTypeName</key><string>Video</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.video</string></array></dict><dict><key>CFBundleTypeName</key><string>Image</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.image</string></array></dict><dict><key>CFBundleTypeName</key><string>Web Archive</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.apple.webarchive</string></array></dict><dict><key>CFBundleTypeName</key><string>iWork Keynote</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.apple.keynote.key</string><string>com.apple.iwork.keynote.key</string><string>com.apple.iwork.keynote.kth</string></array></dict><dict><key>CFBundleTypeName</key><string>iWork Numbers</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.apple.numbers.numbers</string><string>com.apple.iwork.numbers.numbers</string><string>com.apple.iwork.numbers.template</string></array></dict><dict><key>CFBundleTypeName</key><string>iWork Pages</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.apple.page.pages</string><string>com.apple.iwork.pages.pages</string><string>com.apple.iwork.pages.template</string></array></dict><dict><key>CFBundleTypeName</key><string>OpenDocument Spreadsheet</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>org.oasis.opendocument.spreadsheet</string></array></dict><dict><key>CFBundleTypeName</key><string>OpenDocument Presentation</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>org.oasis.opendocument.presentation</string></array></dict><dict><key>CFBundleTypeName</key><string>OpenDocument Text</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>org.oasis.opendocument.text</string></array></dict><dict><key>CFBundleTypeName</key><string>Folder</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.folder</string></array></dict><dict><key>CFBundleTypeName</key><string>Audio</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.audio</string><string>public.mp3</string><string>public.mpeg-4-audio</string><string>com.apple.protected-​mpeg-4-audio</string><string>public.aifc-audio</string><string>com.apple.coreaudio-​format</string><string>public.aiff-audio</string></array></dict><dict><key>CFBundleTypeName</key><string>Movie</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.movie</string><string>public.3gpp2</string><string>public.3gpp</string><string>public.mpeg</string><string>com.apple.quicktime-movie</string><string>public.mpeg-4</string></array></dict><dict><key>CFBundleTypeName</key><string>GIF image</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.compuserve.gif</string></array></dict><dict><key>CFBundleTypeName</key><string>PNG image</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.png</string></array></dict><dict><key>CFBundleTypeName</key><string>TIFF image</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.tiff</string></array></dict><dict><key>CFBundleTypeName</key><string>JPEG image</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.jpeg</string></array></dict><dict><key>CFBundleTypeName</key><string>XML</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.xml</string></array></dict><dict><key>CFBundleTypeName</key><string>HTML</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.html</string><string>public.xhtml</string></array></dict><dict><key>CFBundleTypeName</key><string>Rich Text</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.rtf</string><string>com.apple.rtfd</string><string>com.apple.flat-rtfd</string></array></dict><dict><key>CFBundleTypeName</key><string>Text</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.text</string><string>public.plain-text</string><string>public.utf8-plain-text</string><string>public.utf16-external-plain-​text</string><string>public.utf16-plain-text</string><string>com.apple.traditional-mac-​plain-text</string><string>public.source-code</string><string>public.c-source</string><string>public.objective-c-source</string><string>public.c-plus-plus-source</string><string>public.objective-c-plus-​plus-source</string><string>public.c-header</string><string>public.c-plus-plus-header</string><string>com.sun.java-source</string><string>public.script</string><string>public.shell-script</string></array></dict><dict><key>CFBundleTypeExtensions</key><array><string>zip</string><string>zipx</string></array><key>CFBundleTypeName</key><string>Zip archive</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.zip-archive</string><string>public.archive</string><string>com.pkware.zip-archive</string><string>com.pkware.zipx-archive</string></array></dict><dict><key>CFBundleTypeExtensions</key><array><string>rar</string><string>RAR</string></array><key>CFBundleTypeName</key><string>Rar archive</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.rarlab.rar-archive</string><string>public.archive</string></array></dict><dict><key>CFBundleTypeExtensions</key><array><string>7z</string><string>7Z</string></array><key>CFBundleTypeName</key><string>7z archive</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>org.7-zip.7-zip-archive</string><string>public.archive</string></array></dict><dict><key>CFBundleTypeName</key><string>Waveform audio</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.microsoft.waveform-​audio</string></array></dict><dict><key>CFBundleTypeName</key><string>Windows icon image</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.microsoft.ico</string><string>com.apple.icns</string></array></dict><dict><key>CFBundleTypeName</key><string>Windows bitmap image</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.microsoft.bmp</string></array></dict><dict><key>CFBundleTypeName</key><string>Microsoft PowerPoint</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.microsoft.powerpoint.​ppt</string><string>org.openxmlformats.presentationml.presentation</string></array></dict><dict><key>CFBundleTypeName</key><string>Microsoft Excel</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>org.openxmlformats.spreadsheetml.sheet</string><string>com.microsoft.excel.xls</string></array></dict><dict><key>CFBundleTypeName</key><string>Microsoft Word</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.microsoft.word.doc</string><string>com.microsoft.word.wordml</string><string>org.openxmlformats.wordprocessingml.document</string></array></dict><dict><key>CFBundleTypeName</key><string>PDF</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.adobe.pdf</string></array></dict></array>",
-              "count": 2
+              "count": 4
             }
           ],
           "CFBundleURLTypes": [
             {
               "xml": "<array><dict><key>CFBundleURLSchemes</key><array><string>moodlemobile</string></array></dict></array>",
-              "count": 1
-            }
-          ],
-          "UIBackgroundModes": [
-            {
-              "xml": "<array><string>remote-notification</string></array>",
-              "count": 1
-            },
-            {
-              "xml": "<array><string>audio</string></array>",
               "count": 1
             }
           ],
@@ -194,12 +160,26 @@
               "xml": "<string>This app requires motion detection access to function properly.</string>",
               "count": 1
             }
+          ],
+          "UIBackgroundModes": [
+            {
+              "xml": "<array><string>audio</string></array>",
+              "count": 1
+            },
+            {
+              "xml": "<array><string>remote-notification</string></array>",
+              "count": 1
+            }
           ]
         }
       },
       "config.xml": {
         "parents": {
           "/*": [
+            {
+              "xml": "<feature name=\"Clipboard\"><param name=\"ios-package\" value=\"CDVClipboard\" /></feature>",
+              "count": 1
+            },
             {
               "xml": "<feature name=\"File\"><param name=\"ios-package\" value=\"CDVFile\" /><param name=\"onload\" value=\"true\" /></feature>",
               "count": 1
@@ -209,19 +189,7 @@
               "count": 1
             },
             {
-              "xml": "<feature name=\"Clipboard\"><param name=\"ios-package\" value=\"CDVClipboard\" /></feature>",
-              "count": 1
-            },
-            {
               "xml": "<feature name=\"Badge\"><param name=\"ios-package\" value=\"APPBadge\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"Camera\"><param name=\"ios-package\" value=\"CDVCamera\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<preference name=\"CameraUsesGeolocation\" value=\"false\" />",
               "count": 1
             },
             {
@@ -241,31 +209,7 @@
               "count": 1
             },
             {
-              "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVWKInAppBrowser\" /><param name=\"onload\" value=\"true\" /></feature>",
-              "count": 1
-            },
-            {
               "xml": "<feature name=\"CDVIonicKeyboard\"><param name=\"ios-package\" onload=\"true\" value=\"CDVIonicKeyboard\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<allow-navigation href=\"ionic://*\" />",
-              "count": 1
-            },
-            {
-              "xml": "<preference name=\"deployment-target\" value=\"11.0\" />",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"IonicWebView\"><param name=\"ios-package\" value=\"CDVWKWebViewEngine\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<preference name=\"CordovaWebViewEngine\" value=\"CDVWKWebViewEngine\" />",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"LocalNotification\"><param name=\"ios-package\" onload=\"true\" value=\"APPLocalNotification\" /><param name=\"onload\" value=\"true\" /></feature>",
               "count": 1
             },
             {
@@ -277,7 +221,7 @@
               "count": 1
             },
             {
-              "xml": "<feature name=\"QRScanner\"><param name=\"ios-package\" value=\"QRScanner\" /></feature>",
+              "xml": "<feature name=\"CDVOrientation\"><param name=\"ios-package\" value=\"CDVOrientation\" /></feature>",
               "count": 1
             },
             {
@@ -302,14 +246,6 @@
             },
             {
               "xml": "<feature name=\"SQLitePlugin\"><param name=\"ios-package\" value=\"SQLitePlugin\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"PushNotification\"><param name=\"ios-package\" value=\"PushPlugin\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"BackgroundAudio\"><param name=\"ios-package\" onload=\"true\" value=\"BackgroundAudio\" /><param name=\"onload\" value=\"true\" /></feature>",
               "count": 1
             },
             {
@@ -357,11 +293,51 @@
               "count": 1
             },
             {
+              "xml": "<feature name=\"BackgroundAudio\"><param name=\"ios-package\" onload=\"true\" value=\"BackgroundAudio\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Camera\"><param name=\"ios-package\" value=\"CDVCamera\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"CameraUsesGeolocation\" value=\"false\" />",
+              "count": 1
+            },
+            {
               "xml": "<feature name=\"FileTransfer\"><param name=\"ios-package\" value=\"CDVFileTransfer\" /></feature>",
               "count": 1
             },
             {
-              "xml": "<feature name=\"CDVOrientation\"><param name=\"ios-package\" value=\"CDVOrientation\" /></feature>",
+              "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVWKInAppBrowser\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<allow-navigation href=\"ionic://*\" />",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"deployment-target\" value=\"11.0\" />",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"IonicWebView\"><param name=\"ios-package\" value=\"CDVWKWebViewEngine\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"CordovaWebViewEngine\" value=\"CDVWKWebViewEngine\" />",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"LocalNotification\"><param name=\"ios-package\" onload=\"true\" value=\"APPLocalNotification\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"QRScanner\"><param name=\"ios-package\" value=\"QRScanner\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"PushNotification\"><param name=\"ios-package\" value=\"PushPlugin\" /></feature>",
               "count": 1
             }
           ],
@@ -396,106 +372,117 @@
     }
   },
   "installed_plugins": {
+    "cordova-clipboard": {
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
+    },
+    "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
+    },
     "cordova-plugin-file": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
     },
     "cordova-plugin-advanced-http": {
       "ANDROIDBLACKLISTSECURESOCKETPROTOCOLS": "SSLv3,TLSv1",
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
     },
-    "cordova-clipboard": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    "cordova-plugin-androidx-adapter": {
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
     },
     "cordova-plugin-badge": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
-    },
-    "@moodlehq/cordova-plugin-camera": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
-    },
-    "cordova-plugin-add-swift-support": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
     },
     "cordova-plugin-chooser": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
     },
     "cordova-plugin-customurlscheme": {
       "URL_SCHEME": "moodlemobile",
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
     },
     "cordova-plugin-device": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
     },
     "cordova-plugin-file-opener2": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
     },
     "cordova-plugin-geolocation": {
       "GPS_REQUIRED": "false",
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
-    },
-    "@moodlehq/cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
     },
     "cordova-plugin-ionic-keyboard": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
-    },
-    "@moodlehq/cordova-plugin-ionic-webview": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
-    },
-    "@moodlehq/cordova-plugin-local-notification": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
     },
     "cordova-plugin-media-capture": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
     },
     "cordova-plugin-network-information": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
     },
-    "@moodlehq/cordova-plugin-qrscanner": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    "cordova-plugin-prevent-override": {
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
     },
     "cordova-plugin-statusbar": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
     },
     "cordova-plugin-wkuserscript": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
     },
     "cordova-plugin-wkwebview-cookies": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
-    },
-    "@moodlehq/cordova-plugin-zip": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
     },
     "cordova-sqlite-storage": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
+    },
+    "cordova.plugins.diagnostic": {
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
+    },
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
+    },
+    "nl.kingsquare.cordova.background-audio": {
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
+    },
+    "@moodlehq/cordova-plugin-camera": {
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
+    },
+    "@moodlehq/cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
+    },
+    "@moodlehq/cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
+    },
+    "@moodlehq/cordova-plugin-intent": {
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
+    },
+    "@moodlehq/cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
+    },
+    "@moodlehq/cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
+    },
+    "@moodlehq/cordova-plugin-qrscanner": {
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
+    },
+    "@moodlehq/cordova-plugin-zip": {
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
     },
     "@moodlehq/phonegap-plugin-push": {
       "IOS_FIREBASE_MESSAGING_VERSION": "~> 8.1.1",
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
-    },
-    "@moodlehq/cordova-plugin-intent": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
-    },
-    "nl.kingsquare.cordova.background-audio": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
-    },
-    "cordova.plugins.diagnostic": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
-    },
-    "@moodlehq/cordova-plugin-file-transfer": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
-    },
-    "cordova-plugin-prevent-override": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
-    },
-    "cordova-plugin-androidx-adapter": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
-    },
-    "cordova-plugin-screen-orientation": {
-      "PACKAGE_NAME": "com.moodle.moodlemobile"
+      "PACKAGE_NAME": "id.co.dataquest.alfalearning"
     }
   },
   "dependent_plugins": {},
   "modules": [
+    {
+      "id": "cordova-clipboard.Clipboard",
+      "file": "plugins/cordova-clipboard/www/clipboard.js",
+      "pluginId": "cordova-clipboard",
+      "clobbers": [
+        "cordova.plugins.clipboard"
+      ]
+    },
     {
       "id": "cordova-plugin-file.DirectoryEntry",
       "file": "plugins/cordova-plugin-file/www/DirectoryEntry.js",
@@ -743,51 +730,11 @@
       ]
     },
     {
-      "id": "cordova-clipboard.Clipboard",
-      "file": "plugins/cordova-clipboard/www/clipboard.js",
-      "pluginId": "cordova-clipboard",
-      "clobbers": [
-        "cordova.plugins.clipboard"
-      ]
-    },
-    {
       "id": "cordova-plugin-badge.Badge",
       "file": "plugins/cordova-plugin-badge/www/badge.js",
       "pluginId": "cordova-plugin-badge",
       "clobbers": [
         "cordova.plugins.notification.badge"
-      ]
-    },
-    {
-      "id": "@moodlehq/cordova-plugin-camera.Camera",
-      "file": "plugins/@moodlehq/cordova-plugin-camera/www/CameraConstants.js",
-      "pluginId": "@moodlehq/cordova-plugin-camera",
-      "clobbers": [
-        "Camera"
-      ]
-    },
-    {
-      "id": "@moodlehq/cordova-plugin-camera.CameraPopoverOptions",
-      "file": "plugins/@moodlehq/cordova-plugin-camera/www/CameraPopoverOptions.js",
-      "pluginId": "@moodlehq/cordova-plugin-camera",
-      "clobbers": [
-        "CameraPopoverOptions"
-      ]
-    },
-    {
-      "id": "@moodlehq/cordova-plugin-camera.camera",
-      "file": "plugins/@moodlehq/cordova-plugin-camera/www/Camera.js",
-      "pluginId": "@moodlehq/cordova-plugin-camera",
-      "clobbers": [
-        "navigator.camera"
-      ]
-    },
-    {
-      "id": "@moodlehq/cordova-plugin-camera.CameraPopoverHandle",
-      "file": "plugins/@moodlehq/cordova-plugin-camera/www/ios/CameraPopoverHandle.js",
-      "pluginId": "@moodlehq/cordova-plugin-camera",
-      "clobbers": [
-        "CameraPopoverHandle"
       ]
     },
     {
@@ -855,43 +802,11 @@
       ]
     },
     {
-      "id": "@moodlehq/cordova-plugin-inappbrowser.inappbrowser",
-      "file": "plugins/@moodlehq/cordova-plugin-inappbrowser/www/inappbrowser.js",
-      "pluginId": "@moodlehq/cordova-plugin-inappbrowser",
-      "clobbers": [
-        "cordova.InAppBrowser.open"
-      ]
-    },
-    {
       "id": "cordova-plugin-ionic-keyboard.keyboard",
       "file": "plugins/cordova-plugin-ionic-keyboard/www/ios/keyboard.js",
       "pluginId": "cordova-plugin-ionic-keyboard",
       "clobbers": [
         "window.Keyboard"
-      ]
-    },
-    {
-      "id": "@moodlehq/cordova-plugin-ionic-webview.IonicWebView",
-      "file": "plugins/@moodlehq/cordova-plugin-ionic-webview/src/www/util.js",
-      "pluginId": "@moodlehq/cordova-plugin-ionic-webview",
-      "clobbers": [
-        "Ionic.WebView"
-      ]
-    },
-    {
-      "id": "@moodlehq/cordova-plugin-ionic-webview.ios-wkwebview-exec",
-      "file": "plugins/@moodlehq/cordova-plugin-ionic-webview/src/www/ios/ios-wkwebview-exec.js",
-      "pluginId": "@moodlehq/cordova-plugin-ionic-webview",
-      "clobbers": [
-        "cordova.exec"
-      ]
-    },
-    {
-      "id": "@moodlehq/cordova-plugin-local-notification.LocalNotification",
-      "file": "plugins/@moodlehq/cordova-plugin-local-notification/www/local-notification.js",
-      "pluginId": "@moodlehq/cordova-plugin-local-notification",
-      "clobbers": [
-        "cordova.plugins.notification.local"
       ]
     },
     {
@@ -973,11 +888,11 @@
       ]
     },
     {
-      "id": "@moodlehq/cordova-plugin-qrscanner.QRScanner",
-      "file": "plugins/@moodlehq/cordova-plugin-qrscanner/www/www.min.js",
-      "pluginId": "@moodlehq/cordova-plugin-qrscanner",
+      "id": "cordova-plugin-screen-orientation.screenorientation",
+      "file": "plugins/cordova-plugin-screen-orientation/www/screenorientation.js",
+      "pluginId": "cordova-plugin-screen-orientation",
       "clobbers": [
-        "QRScanner"
+        "cordova.plugins.screenorientation"
       ]
     },
     {
@@ -1005,35 +920,11 @@
       ]
     },
     {
-      "id": "@moodlehq/cordova-plugin-zip.Zip",
-      "file": "plugins/@moodlehq/cordova-plugin-zip/zip.js",
-      "pluginId": "@moodlehq/cordova-plugin-zip",
-      "clobbers": [
-        "zip"
-      ]
-    },
-    {
       "id": "cordova-sqlite-storage.SQLitePlugin",
       "file": "plugins/cordova-sqlite-storage/www/SQLitePlugin.js",
       "pluginId": "cordova-sqlite-storage",
       "clobbers": [
         "SQLitePlugin"
-      ]
-    },
-    {
-      "id": "@moodlehq/phonegap-plugin-push.PushNotification",
-      "file": "plugins/@moodlehq/phonegap-plugin-push/www/push.js",
-      "pluginId": "@moodlehq/phonegap-plugin-push",
-      "clobbers": [
-        "PushNotification"
-      ]
-    },
-    {
-      "id": "@moodlehq/cordova-plugin-intent.IntentShim",
-      "file": "plugins/@moodlehq/cordova-plugin-intent/www/IntentShim.js",
-      "pluginId": "@moodlehq/cordova-plugin-intent",
-      "clobbers": [
-        "intentShim"
       ]
     },
     {
@@ -1125,6 +1016,44 @@
       ]
     },
     {
+      "id": "es6-promise-plugin.Promise",
+      "file": "plugins/es6-promise-plugin/www/promise.js",
+      "pluginId": "es6-promise-plugin",
+      "runs": true
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-camera.Camera",
+      "file": "plugins/@moodlehq/cordova-plugin-camera/www/CameraConstants.js",
+      "pluginId": "@moodlehq/cordova-plugin-camera",
+      "clobbers": [
+        "Camera"
+      ]
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-camera.CameraPopoverOptions",
+      "file": "plugins/@moodlehq/cordova-plugin-camera/www/CameraPopoverOptions.js",
+      "pluginId": "@moodlehq/cordova-plugin-camera",
+      "clobbers": [
+        "CameraPopoverOptions"
+      ]
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-camera.camera",
+      "file": "plugins/@moodlehq/cordova-plugin-camera/www/Camera.js",
+      "pluginId": "@moodlehq/cordova-plugin-camera",
+      "clobbers": [
+        "navigator.camera"
+      ]
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-camera.CameraPopoverHandle",
+      "file": "plugins/@moodlehq/cordova-plugin-camera/www/ios/CameraPopoverHandle.js",
+      "pluginId": "@moodlehq/cordova-plugin-camera",
+      "clobbers": [
+        "CameraPopoverHandle"
+      ]
+    },
+    {
       "id": "@moodlehq/cordova-plugin-file-transfer.FileTransferError",
       "file": "plugins/@moodlehq/cordova-plugin-file-transfer/www/FileTransferError.js",
       "pluginId": "@moodlehq/cordova-plugin-file-transfer",
@@ -1141,45 +1070,102 @@
       ]
     },
     {
-      "id": "cordova-plugin-screen-orientation.screenorientation",
-      "file": "plugins/cordova-plugin-screen-orientation/www/screenorientation.js",
-      "pluginId": "cordova-plugin-screen-orientation",
+      "id": "@moodlehq/cordova-plugin-inappbrowser.inappbrowser",
+      "file": "plugins/@moodlehq/cordova-plugin-inappbrowser/www/inappbrowser.js",
+      "pluginId": "@moodlehq/cordova-plugin-inappbrowser",
       "clobbers": [
-        "cordova.plugins.screenorientation"
+        "cordova.InAppBrowser.open"
+      ]
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-intent.IntentShim",
+      "file": "plugins/@moodlehq/cordova-plugin-intent/www/IntentShim.js",
+      "pluginId": "@moodlehq/cordova-plugin-intent",
+      "clobbers": [
+        "intentShim"
+      ]
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-ionic-webview.IonicWebView",
+      "file": "plugins/@moodlehq/cordova-plugin-ionic-webview/src/www/util.js",
+      "pluginId": "@moodlehq/cordova-plugin-ionic-webview",
+      "clobbers": [
+        "Ionic.WebView"
+      ]
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-ionic-webview.ios-wkwebview-exec",
+      "file": "plugins/@moodlehq/cordova-plugin-ionic-webview/src/www/ios/ios-wkwebview-exec.js",
+      "pluginId": "@moodlehq/cordova-plugin-ionic-webview",
+      "clobbers": [
+        "cordova.exec"
+      ]
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-local-notification.LocalNotification",
+      "file": "plugins/@moodlehq/cordova-plugin-local-notification/www/local-notification.js",
+      "pluginId": "@moodlehq/cordova-plugin-local-notification",
+      "clobbers": [
+        "cordova.plugins.notification.local"
+      ]
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-qrscanner.QRScanner",
+      "file": "plugins/@moodlehq/cordova-plugin-qrscanner/www/www.min.js",
+      "pluginId": "@moodlehq/cordova-plugin-qrscanner",
+      "clobbers": [
+        "QRScanner"
+      ]
+    },
+    {
+      "id": "@moodlehq/cordova-plugin-zip.Zip",
+      "file": "plugins/@moodlehq/cordova-plugin-zip/zip.js",
+      "pluginId": "@moodlehq/cordova-plugin-zip",
+      "clobbers": [
+        "zip"
+      ]
+    },
+    {
+      "id": "@moodlehq/phonegap-plugin-push.PushNotification",
+      "file": "plugins/@moodlehq/phonegap-plugin-push/www/push.js",
+      "pluginId": "@moodlehq/phonegap-plugin-push",
+      "clobbers": [
+        "PushNotification"
       ]
     }
   ],
   "plugin_metadata": {
+    "cordova-clipboard": "1.3.0",
+    "cordova-plugin-add-swift-support": "2.0.2",
     "cordova-plugin-file": "6.0.2",
     "cordova-plugin-advanced-http": "3.3.1",
-    "cordova-clipboard": "1.3.0",
+    "cordova-plugin-androidx-adapter": "1.1.3",
     "cordova-plugin-badge": "0.8.9",
-    "@moodlehq/cordova-plugin-camera": "6.0.0-moodle.1",
-    "cordova-plugin-add-swift-support": "2.0.2",
     "cordova-plugin-chooser": "1.3.1",
     "cordova-plugin-customurlscheme": "5.0.2",
     "cordova-plugin-device": "2.1.0",
     "cordova-plugin-file-opener2": "4.0.0",
     "cordova-plugin-geolocation": "4.1.0",
-    "@moodlehq/cordova-plugin-inappbrowser": "5.0.0-moodle.3",
     "cordova-plugin-ionic-keyboard": "2.2.0",
-    "@moodlehq/cordova-plugin-ionic-webview": "5.0.0-moodle.1",
-    "@moodlehq/cordova-plugin-local-notification": "0.9.0-moodle.11",
     "cordova-plugin-media-capture": "3.0.3",
     "cordova-plugin-network-information": "3.0.0",
-    "@moodlehq/cordova-plugin-qrscanner": "3.0.1-moodle.5",
+    "cordova-plugin-prevent-override": "1.0.1",
+    "cordova-plugin-screen-orientation": "3.0.3",
     "cordova-plugin-statusbar": "3.0.0",
     "cordova-plugin-wkuserscript": "1.0.1",
     "cordova-plugin-wkwebview-cookies": "1.0.1",
-    "@moodlehq/cordova-plugin-zip": "3.1.0-moodle.1",
     "cordova-sqlite-storage": "6.1.0",
-    "@moodlehq/phonegap-plugin-push": "4.0.0-moodle.6",
-    "@moodlehq/cordova-plugin-intent": "2.2.0-moodle.2",
-    "nl.kingsquare.cordova.background-audio": "1.0.1",
     "cordova.plugins.diagnostic": "7.1.2",
+    "es6-promise-plugin": "4.2.2",
+    "nl.kingsquare.cordova.background-audio": "1.0.1",
+    "@moodlehq/cordova-plugin-camera": "6.0.0-moodle.1",
     "@moodlehq/cordova-plugin-file-transfer": "1.7.1-moodle.5",
-    "cordova-plugin-prevent-override": "1.0.1",
-    "cordova-plugin-androidx-adapter": "1.1.3",
-    "cordova-plugin-screen-orientation": "3.0.3"
+    "@moodlehq/cordova-plugin-inappbrowser": "5.0.0-moodle.3",
+    "@moodlehq/cordova-plugin-intent": "2.2.0-moodle.2",
+    "@moodlehq/cordova-plugin-ionic-webview": "5.0.0-moodle.1",
+    "@moodlehq/cordova-plugin-local-notification": "0.9.0-moodle.11",
+    "@moodlehq/cordova-plugin-qrscanner": "3.0.1-moodle.5",
+    "@moodlehq/cordova-plugin-zip": "3.1.0-moodle.1",
+    "@moodlehq/phonegap-plugin-push": "4.0.0-moodle.6"
   }
 }

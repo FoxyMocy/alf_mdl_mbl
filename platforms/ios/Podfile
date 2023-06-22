@@ -2,8 +2,8 @@
 source 'https://cdn.cocoapods.org/'
 platform :ios, '11.0'
 use_frameworks!
-target 'D:\MoodleProject\alf_4.2.0_n\platforms\ios\Moodle' do
-	project 'D:\MoodleProject\alf_4.2.0_n\platforms\ios\Moodle.xcodeproj'
+target 'D:\MoodleProject\alf_4.2.0_n\platforms\ios\Alfa Learning' do
+	project 'D:\MoodleProject\alf_4.2.0_n\platforms\ios\Alfa Learning.xcodeproj'
 	pod 'Firebase/Messaging', '~> 8.1.1'
 	pod 'Sodium', :commit => 'f67e6e0', :git => 'https://github.com/jedisct1/swift-sodium.git'
 end

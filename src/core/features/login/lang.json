@@ -10,6 +10,7 @@
     "changepasswordreconnectinstructions": "If you didn't change your password correctly, you'll be asked to do it again.",
     "changepasswordsupportsubject": "Need help changing my password",
     "confirmdeletesite": "Are you sure you want to remove the account on {{sitename}}?",
+    "confirmlogout": "Are you sure you want to logout?",
     "connect": "Connect!",
     "connecttomoodle": "Connect to Moodle",
     "connecttomoodleapp": "You are trying to connect to a regular Moodle site. Please download the official Moodle app to access this site.",

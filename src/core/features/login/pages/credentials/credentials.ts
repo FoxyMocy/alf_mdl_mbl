@@ -40,7 +40,7 @@ import { CorePlatform } from '@services/platform';
 @Component({
     selector: 'page-core-login-credentials',
     templateUrl: 'credentials.html',
-    styleUrls: ['../../login.scss'],
+    styleUrls: ['../../login.scss', 'credentials.scss'],
 })
 export class CoreLoginCredentialsPage implements OnInit, OnDestroy {
 
